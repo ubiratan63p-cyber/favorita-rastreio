@@ -1,0 +1,172 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.logoArea {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.logoText {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -1px;
+}
+
+.logoDot {
+  color: var(--primary);
+}
+
+.card {
+  width: 100%;
+  padding: 32px 24px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  color: #111827;
+}
+
+.subtitle {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+.error {
+  color: #ef4444;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.resultCard {
+  width: 100%;
+  padding: 24px;
+  text-align: left;
+}
+
+.statusHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.statusIcon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(249, 115, 22, 0.1);
+  color: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.statusText {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.statusSub {
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.section {
+  margin-bottom: 20px;
+}
+
+.sectionTitle {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.infoRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
+
+.infoLabel {
+  color: var(--text-muted);
+}
+
+.infoValue {
+  font-weight: 500;
+  color: #111827;
+  text-align: right;
+}
+
+.productList {
+  list-style: none;
+}
+
+.productItem {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+  font-size: 14px;
+}
+
+.productItem:last-child {
+  border-bottom: none;
+}
+
+.productQty {
+  font-weight: 600;
+  color: var(--primary);
+  background: rgba(249, 115, 22, 0.1);
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.backBtn {
+  margin-top: 24px;
+  background: transparent;
+  color: var(--text-muted);
+  border: 1px solid #d1d5db;
+}
+
+.backBtn:hover {
+  background: #f3f4f6;
+  color: #111827;
+  box-shadow: none;
+  transform: none;
+}

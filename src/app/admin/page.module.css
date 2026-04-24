@@ -1,0 +1,152 @@
+.container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.tab {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: white;
+  color: var(--text-muted);
+  border: 1px solid #d1d5db;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.tab.active {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 24px;
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.formGroup {
+  margin-bottom: 16px;
+}
+
+.label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: #374151;
+}
+
+.input {
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  font-size: 15px;
+}
+
+.input:focus {
+  border-color: var(--primary);
+  outline: none;
+}
+
+.productRow {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 12px;
+  align-items: center;
+}
+
+.select {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.qtyInput {
+  width: 80px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+.addBtn {
+  background: transparent;
+  color: var(--primary);
+  font-weight: 600;
+  padding: 8px 0;
+  margin-bottom: 20px;
+}
+
+.submitBtn {
+  background: var(--primary);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.table th {
+  font-weight: 600;
+  color: #374151;
+  background: #f9fafb;
+}
+
+.actionBtn {
+  background: transparent;
+  border: none;
+  color: #ef4444;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.actionBtn:hover {
+  text-decoration: underline;
+}
+
+.loginBox {
+  max-width: 400px;
+  margin: 100px auto;
+  text-align: center;
+}
