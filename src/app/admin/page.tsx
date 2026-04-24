@@ -127,7 +127,7 @@ export default function AdminPage() {
     <div className={styles.container}>
       <div className={styles.header}>
         <h1 className={styles.title}>Painel de Administração</h1>
-        <div><span style={{color: 'var(--primary)', fontWeight: 'bold'}}>Favorita</span> Logística</div>
+        <div><span style={{color: 'var(--primary)', fontWeight: 'bold'}}>SuaEntrega</span></div>
       </div>
 
       <div className={styles.tabs}>

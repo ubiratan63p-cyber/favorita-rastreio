@@ -74,18 +74,38 @@ export default function Home() {
   return (
     <main className={styles.container}>
       <div className={styles.logoArea}>
-        <div className={styles.logoText}>Favorita<span className={styles.logoDot}>.</span></div>
+        <div className={styles.logoText}>SuaEntrega<span className={styles.logoDot}>.</span></div>
+        <div className={styles.logoSubtitle}>Sua transportadora de confiança</div>
       </div>
 
       <div className={`glass-panel animate-fade-in ${styles.card}`}>
         {step === 1 && (
-          <div>
-            <h1 className={styles.title}>Rastreamento de Pedido</h1>
+          <div className={styles.landingContent}>
+            <div className={styles.heroIllustration}>
+               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className={styles.truckIcon}>
+                 <rect x="1" y="3" width="15" height="13"></rect>
+                 <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                 <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                 <circle cx="18.5" cy="18.5" r="2.5"></circle>
+               </svg>
+            </div>
+            <h1 className={styles.title}>Rastreamento Rápido e Seguro</h1>
             <p className={styles.subtitle}>
-              Acompanhe sua entrega em tempo real com rapidez e segurança.
+              Acompanhe sua entrega em tempo real. Digite seu código para ver o status atualizado do seu pacote.
             </p>
-            <button className="btn-primary" onClick={() => setStep(2)}>
+            
+            <div className={styles.features}>
+              <div className={styles.featureBadge}>🛡️ Entrega Segura</div>
+              <div className={styles.featureBadge}>⚡ Rápida</div>
+              <div className={styles.featureBadge}>📍 Tempo Real</div>
+            </div>
+
+            <button className={`btn-primary ${styles.heroButton}`} onClick={() => setStep(2)}>
               Rastrear minha entrega
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" style={{marginLeft: 8}}>
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
             </button>
           </div>
         )}

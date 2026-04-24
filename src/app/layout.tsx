@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Favorita - Rastreamento",
-  description: "Sistema de rastreamento de produtos da Favorita Logística",
+  title: "SuaEntrega - Rastreamento",
+  description: "Sua transportadora de confiança",
 };
 
 export default function RootLayout({
